@@ -1,0 +1,53 @@
+p {
+  color: blue;
+}
+
+section {
+  background-color: silver;
+}
+
+/* decendant */
+section p {
+  background-color: green;
+}
+
+/* child */
+section > p {
+  background-color: rgb(175, 215, 82);
+}
+
+/* adjacent */
+section + p {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* sibling */
+section ~ p {
+  background-color: aqua;
+}
+
+/* Attribute */
+[href] {
+  text-decoration: none;
+}
+
+[href="Google"] {
+  color: black;
+}
+
+/* pseudo-element */
+
+p::first-letter {
+  font-size: 16px;
+}
+
+p::first-line {
+  background-color: yellow;
+}
+
+a:hover {
+  font-size: 32px;
+}
+
+/* FLEX_BOX */
